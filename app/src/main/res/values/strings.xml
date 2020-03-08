@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Airtel</string>
+    <string name="welcome_cardholder">Welcom, <b>Mr. John Doe</b></string>
+</resources>
