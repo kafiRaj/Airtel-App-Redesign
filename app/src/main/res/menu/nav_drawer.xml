@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profileId"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/productId"
+        android:icon="@drawable/ic_services"
+        android:title="Products &amp; Services"
+        />
+
+    <item
+        android:id="@+id/vasId"
+        android:icon="@drawable/ic_wallet"
+        android:title="VAS"
+        />
+
+
+    <item
+        android:id="@+id/liveChatId"
+        android:icon="@drawable/ic_livechat"
+        android:title="Live Chat"
+        />
+
+    <group>
+
+        <item
+            android:title=""
+            >
+
+            <menu>
+
+                <item
+                    android:id="@+id/settingsId"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Settings"
+                    />
+
+
+                <item
+                    android:id="@+id/logoutId"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Log Out"
+                    />
+
+
+            </menu>
+
+
+
+
+        </item>
+
+
+    </group>
+
+
+</menu>

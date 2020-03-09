@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="2dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Doe"
+                android:textSize="25sp"
+                android:layout_marginStart="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+88016XXX333"
+                android:textSize="16dp"
+                android:layout_marginStart="20dp"
+
+                />
+
+
+        </LinearLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_mode"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+
+            android:layout_marginEnd="20dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ash"
+        />
+
+
+
+
+
+
+</LinearLayout>
